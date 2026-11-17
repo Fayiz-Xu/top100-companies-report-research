@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>36氪「2026年最具成长价值的百家企业」深度调研报告</title>
+    <title>36氪「2026最具价值成长企业100」深度调研报告｜2026年11月数据核验更新</title>
     <style>
         :root {
             --primary: #1a237e;
@@ -454,6 +454,17 @@
         .todo-group[open] summary { margin-bottom: 16px; }
         .todo-group .company-card { margin-bottom: 16px; }
         .todo-group .company-card:last-child { margin-bottom: 0; }
+    
+        /* 2026-11-17 数据核验更新 */
+        .update-badge { display:inline-block; margin-left:12px; padding:3px 10px; font-size:0.55em;
+            font-weight:600; letter-spacing:0.02em; color:#fff; background:#c62828; border-radius:20px; vertical-align:middle; }
+        .warn-box { margin:16px 0; padding:14px 18px; border-radius:8px; font-size:0.92em; line-height:1.8;
+            background:rgba(198,40,40,0.08); border:1px solid rgba(198,40,40,0.35); border-left:4px solid #c62828; }
+        .info-box { margin:16px 0; padding:14px 18px; border-radius:8px; font-size:0.92em; line-height:1.8;
+            background:rgba(21,101,192,0.07); border:1px solid rgba(21,101,192,0.28); border-left:4px solid #1565c0; }
+        .changelog-table td { vertical-align:top; }
+        .changelog-table a { color:var(--accent); text-decoration:underline; }
+        .src-link { font-size:0.82em; color:var(--text-secondary); }
     </style>
 </head>
 <body>
@@ -461,9 +472,9 @@
 
 <!-- Header -->
 <div class="header">
-    <h1>36氪「2026年最具成长价值的百家企业」</h1>
-    <div class="subtitle">深度调研报告</div>
-    <div class="meta">信息更新时间：<span id="report-date"></span> | 数据来源：企业官网、招股书、权威媒体报道、行业研究报告</div>
+    <h1>36氪「2026最具价值成长企业100」</h1>
+    <div class="subtitle">深度调研报告<span class="update-badge">2026年11月17日 数据核验更新</span></div>
+    <div class="meta">数据核查截止：<span id="report-date">2026年11月17日</span> ｜ 榜单发布：2026年6月17日（36氪 WAVES 2026 大会） ｜ 初版上线：2026年11月5日<br>数据来源：<a href="https://www.36kr.com/p/3857980507919622" target="_blank" rel="noopener noreferrer">36氪官方榜单</a>、企业官网、招股书与交易所公告、权威媒体报道、行业研究报告</div>
 </div>
 
 <!-- 企业筛选控件 -->
@@ -526,10 +537,10 @@
             </div>
             <div class="stats-item">
                 <div class="stats-item-label">营收最高企业</div>
-                <div class="stats-item-value">质子汽车（约27亿元）</div>
+                <div class="stats-item-value">质子汽车（2025年约27亿元）</div>
             </div>
         </div>
-        <p class="stats-note">统计口径：31 家正文提及营收数据，其中 5 家给出明确金额（合计约 62 亿元）；增速仅 2 家披露（+260%、+327%），平均值仅供参考。</p>
+        <p class="stats-note">统计口径：初版基于 31 家正文提及营收数据统计，其中 5 家给出明确金额（合计约 62 亿元）；增速仅 2 家披露（+260%、+327%）。⚠️ 质子汽车「约27亿元」为 <b>2025年</b> 营收，据陕西地方媒体 2026-08 报道其 2026年上半年营收已追平2025全年；36氪官方未公布营收排名，「营收最高」仅为本报告口径。本次更新后部分数值已变化，详见 <a href="#changelog">第十二章</a>。</p>
     </div>
     
     <div class="stats-panel" id="panel-funding">
@@ -552,52 +563,38 @@
                 <div class="stats-item-value">DeepSeek（约1,500亿元）</div>
             </div>
         </div>
-        <p class="stats-note">统计口径：仅统计卡片中明确给出金额的「累计融资/最新融资」字段；独角兽按未上市且估值≥10亿美元（约70亿元人民币）计。</p>
+        <p class="stats-note">统计口径：仅统计卡片中明确给出金额的「累计融资/最新融资」字段；独角兽按未上市且估值≥10亿美元（约70亿元人民币）计。⚠️ 其中 DeepSeek 约1500亿元为两轮媒体口径合计、<b>公司未正式官宣</b>；计划中/传闻中的融资一律不计入。</p>
     </div>
     
     <div class="stats-panel" id="panel-region">
-        <h4>🗺️ 地域分布</h4>
+        <h4>🗺️ 地域分布（36氪官方口径）</h4>
         <div class="stats-bar-chart">
             <div class="stats-bar-row">
                 <div class="stats-bar-label">北京</div>
-                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 61%"></div></div>
-                <div class="stats-bar-value">19家</div>
-            </div>
-            <div class="stats-bar-row">
-                <div class="stats-bar-label">上海</div>
-                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 35%"></div></div>
-                <div class="stats-bar-value">11家</div>
+                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 26%"></div></div>
+                <div class="stats-bar-value">26家</div>
             </div>
             <div class="stats-bar-row">
                 <div class="stats-bar-label">深圳</div>
-                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 58%"></div></div>
-                <div class="stats-bar-value">18家</div>
+                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 21%"></div></div>
+                <div class="stats-bar-value">21家</div>
             </div>
             <div class="stats-bar-row">
-                <div class="stats-bar-label">杭州</div>
-                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 23%"></div></div>
-                <div class="stats-bar-value">7家</div>
-            </div>
-            <div class="stats-bar-row">
-                <div class="stats-bar-label">广州</div>
-                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 6%"></div></div>
-                <div class="stats-bar-value">2家</div>
+                <div class="stats-bar-label">上海</div>
+                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 14%"></div></div>
+                <div class="stats-bar-value">14家</div>
             </div>
             <div class="stats-bar-row">
                 <div class="stats-bar-label">其他城市</div>
                 <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 39%"></div></div>
-                <div class="stats-bar-value">12家</div>
+                <div class="stats-bar-value">39家</div>
             </div>
-            <div class="stats-bar-row">
-                <div class="stats-bar-label">总部未披露</div>
-                <div class="stats-bar-track"><div class="stats-bar-fill" style="width: 100%"></div></div>
-                <div class="stats-bar-value">31家</div>
-            </div>
-                        </div>
+        </div>
+        <p class="stats-note">口径说明：36氪官方仅公布前三名城市（北京26、深圳21、上海14），「其他城市39家」为 100−61 推算值，非官方原文。本报告卡片中另有「69家已披露总部／31家未披露」的独立统计，二者口径不同，不可直接比较。详见 <a href="#changelog">第十二章 数据核验与更新日志</a>。</p>
     </div>
-    
+
     <div class="stats-panel" id="panel-track-count">
-        <h4>📊 赛道企业分布</h4>
+        <h4>📊 赛道企业分布（按本报告卡片标签统计）</h4>
         <div class="stats-bar-chart">
             <div class="stats-bar-row">
                 <div class="stats-bar-label">新能源汽车/智能网联</div>
@@ -645,6 +642,7 @@
                 <div class="stats-bar-value">4家</div>
             </div>
                         </div>
+        <p class="stats-note">口径说明：以上为本报告自建的 9 赛道标签统计，非 36氪官方分组。其中「新能源汽车/智能网联 31家」含 22 家名称待核实企业、「商业航天/低空经济 6家」含 1 家待核实企业，实际已核实归类为 77 家。详见 <a href="#changelog">第十二章</a>。</p>
     </div>
 </div>
 
@@ -663,13 +661,14 @@
         <li><a href="#energy-track">九、新能源/储能/新材料赛道</a></li>
         <li><a href="#quantum-track">十、量子计算赛道</a></li>
         <li><a href="#complete-list">十一、完整企业名单（100家）</a></li>
+        <li><a href="#changelog">十二、数据核验与更新日志（2026年11月17日）</a></li>
     </ul>
 </div>
 
 <!-- Section 1: Overview -->
 <div class="section" id="overview">
     <h2 class="section-title">一、榜单概览与赛道分布</h2>
-    <p>36氪「2026最具成长价值的百家企业」于2026年6月18日正式发布，历时2个多月，从数百份企业申报中遴选出100家定义未来的成长标杆企业。评选从成长力、技术力、资本力、产业力和影响力五大维度出发，围绕营收及订单增长、研发投入与专利积累、机构认可度与融资节奏、全球化布局与产业链位置、团队完整度等核心指标进行多轮交叉验证与独立评审。</p>
+    <p>36氪「2026最具价值成长企业100」（The Most Valuable Growth Enterprises）于2026年4月启动评选，历时两个多月、收到数百份企业申报，2026年6月17日在 WAVES 2026 大会发布，6月18日由36氪官网正式发文，最终遴选出100家定义未来的成长标杆企业。评选从成长力、技术力、资本力、产业力和影响力五大维度出发，围绕营收及订单增长、研发投入与专利积累、机构认可度与融资节奏、全球化布局与产业链位置、团队完整度等核心指标进行多轮交叉验证与独立评审。</p>
     
     <h3 style="margin: 20px 0 12px; color: var(--info);">赛道分布一览</h3>
     <table class="data-table">
@@ -740,6 +739,7 @@
     </table>
     
     <h3 style="margin: 20px 0 12px; color: var(--info);">地域分布</h3>
+    <p style="font-size:0.92em;line-height:1.8;"><b>36氪官方口径</b>（据 <a href="https://www.36kr.com/p/3857980507919622" target="_blank" rel="noopener noreferrer">36氪官方发布页</a>，2026-06-18）：北京26家、深圳21家、上海14家位列前三；其余39家分布于杭州、广州、成都、武汉等地，<b>39家为按总数推算，非官方原文</b>。</p>
     <div class="info-grid">
         <div class="info-item">
             <div class="info-label">北京</div>
@@ -758,6 +758,7 @@
             <div class="info-value">39家（39%）— 杭州、广州、成都、武汉等地均有分布</div>
         </div>
     </div>
+    <p style="font-size:0.9em;color:var(--text-secondary);line-height:1.8;">官方同时披露：入选企业平均年龄仅5.5岁，多数成立于2020年后；超70%企业近12个月营收或订单增速超100%，其中增速超300%的约占三分之一，集中在机器人、半导体、商业航天赛道；B轮及以前企业占比超60%，超80%的融资轮次有产业资本参与。</p>
 </div>
 
 <!-- Section 2: AI Track -->
@@ -793,15 +794,15 @@
             </div>
             <div class="info-item">
                 <div class="info-label">最新估值</div>
-                <div class="info-value">约5000亿元人民币（约750亿美元）</div>
+                <div class="info-value">投前约5000亿元；媒体口径投后约6155亿元（未官宣）</div>
             </div>
             <div class="info-item">
                 <div class="info-label">累计融资</div>
-                <div class="info-value">约1500亿元（两轮）</div>
+                <div class="info-value">约1500–1565亿元（两轮，媒体报道，未官宣）</div>
             </div>
             <div class="info-item">
                 <div class="info-label">员工规模</div>
-                <div class="info-value">约300人（扩招中）</div>
+                <div class="info-value">未公开；媒体估算150–300人（2026年扩招中）</div>
             </div>
         </div>
 
@@ -815,7 +816,7 @@
             • <b>2024年12月</b>：发布DeepSeek-V3（671B参数），性能比肩GPT-4o，训练成本仅557.6万美元<br>
             • <b>2025年1月</b>：发布DeepSeek-R1，登顶中美苹果应用商店免费榜，引发全球AI股震荡<br>
             • <b>2026年6月</b>：完成首轮融资约500亿元，估值突破500亿美元<br>
-            • <b>2026年10月</b>：完成第二轮融资约1000亿元，投前估值约5000亿元</p>
+            • <b>2026年9月</b>：发布 V4.1 Flash 并大幅下调 API 定价；开源内部推理框架 DeepInfer<br> • <b>2026年10月</b>：据媒体报道完成第二轮融资约1000–1055亿元，投前估值约5000亿元（公司未发布公告确认）；V4.1-Flash-1017 更新<br> • <b>2026年11月</b>：聘中信证券筹备科创板上市（尚未递表）；因算力紧张对免费 C 端用户限额</p>
         </div>
 
         <div class="analysis-block">
@@ -832,7 +833,7 @@
             <p><b>主营业务</b>：通用人工智能（AGI）大模型研发与API服务<br>
             <b>产业链位置</b>：上游基础模型层<br><br>
             <b>核心产品矩阵</b>：<br>
-            • <b>DeepSeek-V4系列</b>：最新旗舰模型，1.6万亿参数MoE架构，支持1M上下文<br>
+            • <b>DeepSeek-V4 / V4.1 Flash 系列</b>：官网已上线 V4 Preview；2026年9月发布 V4.1 Flash（552B MoE）并大幅降价，10月开源推理框架 DeepInfer<br>
             • <b>DeepSeek-R1</b>：推理模型，纯强化学习实现推理能力跃升<br>
             • <b>DeepSeek-Coder</b>：代码大模型，编程能力超越96%人类程序员<br>
             • <b>DeepSeek-VL</b>：多模态视觉语言模型<br>
@@ -853,8 +854,8 @@
 
         <div class="analysis-block">
             <div class="analysis-title">五、市场表现与财务</div>
-            <p><b>用户规模</b>：月活跃用户约1.27-1.30亿（国内AI原生App第三）<br>
-            <b>营收</b>：2026年前7个月营收约4.75亿元，年化营收运行率突破10亿美元<br>
+            <p><b>用户规模</b>：媒体转述 QuestMobile 口径约1.3亿月活（<b>未找到原始报告，待核</b>）<br>
+            <b>营收</b>：2026年前7个月营收约4.75亿元；据 The Information 2026年9月报道，年化营收运行率约10亿美元（前瞻口径，公司未置评）<br>
             <b>毛利率</b>：API业务毛利率82.9%，综合毛利率44.6%<br>
             <b>盈利状况</b>：前7个月净亏损7.15亿元（较2025年全年9.35亿元收窄）<br>
             <b>收入结构</b>：几乎全部来自API调用收费，C端免费无广告<br>
@@ -959,11 +960,11 @@
             </div>
             <div class="info-item">
                 <div class="info-label">最新估值</div>
-                <div class="info-value">约500亿美元（Pre-IPO轮）</div>
+                <div class="info-value">约500亿美元（2026年10月媒体口径，未官宣）</div>
             </div>
             <div class="info-item">
                 <div class="info-label">累计融资</div>
-                <div class="info-value">超376亿元人民币</div>
+                <div class="info-value">截至2026年5月超376亿元；7月再融超35亿美元</div>
             </div>
             <div class="info-item">
                 <div class="info-label">员工规模</div>
@@ -983,14 +984,14 @@
             • <b>2026年4月</b>：发布Kimi K2.6，可连续编码13小时、修改4000+行代码<br>
             • <b>2026年5月</b>：完成20亿美元D轮融资，估值突破200亿美元<br>
             • <b>2026年7月</b>：发布Kimi K3（2.8万亿参数），登顶全球开源榜；完成35亿美元F轮，估值350亿美元<br>
-            • <b>2026年9月</b>：向港交所递交A1上市申请</p>
+            • <b>2026年9月</b>：据《晚点LatePost》报道以保密形式递交港交所A1，公司「不予置评」，无公开招股书可核<br> • <b>2026年10月</b>：发布 Kimi K3.1 Pro（3万亿级参数、100万Token上下文）；据报完成上市前最后一轮融资<br> • <b>2026年11月</b>：据《华尔街日报》报道正拆除海外架构，目标最早2027年初赴港上市</p>
         </div>
 
         <div class="analysis-block">
             <div class="analysis-title">二、融资与资本</div>
             <p><b>融资历程</b>：成立3年完成10+轮融资，累计超376亿元<br>
             <b>主要投资方</b>：阿里、腾讯、美团龙珠、IDG资本、红杉中国、真格基金、王慧文（个人7000万美元）、中国移动、CPE源峰等<br>
-            <b>上市进展</b>：已完成股改，红筹VIE架构调整中，联席保荐机构为中金公司和高盛，最快6个月内登陆港股<br>
+            <b>上市进展</b>：<span style="color:#c62828;">传闻阶段，未获证实</span>。9月保密递表为公司「不予置评」；11月 WSJ 口径为最早2027年初赴港、拟募资最多50亿美元。原「最快6个月内登陆港股」表述已删除<br>
             <b>估值增速</b>：从2023年天使轮3亿美元到2026年Pre-IPO 500亿美元，暴涨166倍</p>
         </div>
 
@@ -999,7 +1000,7 @@
             <p><b>主营业务</b>：大语言模型研发与AI助手服务<br>
             <b>核心产品</b>：<br>
             • <b>Kimi智能助手</b>：以长文本阅读理解著称，可一次读懂几十万字文档<br>
-            • <b>Kimi K3</b>：2.8万亿参数开源模型，全球最大开源模型，支持300个Agent并行<br>
+            • <b>Kimi K3</b>：2026年7月发布，2.8万亿总参数（激活1040亿）MoE，支持300个Agent并行<br> • <b>Kimi K3.1 Pro</b>：2026年10月24日发布，3万亿级参数、100万Token上下文，为当前最新旗舰<br>
             • <b>Kimi Claw</b>：浏览器内Agent使用入口<br>
             • <b>Kimi Code</b>：编程专用模型<br><br>
             <b>解决的问题</b>：长文本"聊多点就断片"的难题，Agent自动化执行复杂任务</p>
@@ -1018,7 +1019,7 @@
 
         <div class="analysis-block">
             <div class="analysis-title">五、市场表现与财务</div>
-            <p><b>营收</b>：ARR从2026年3月1亿美元升至6月3亿美元，API收入占比超70%<br>
+            <p><b>ARR</b>：2026年3月1亿美元→6月3亿美元→<b>8月约10亿美元</b>（公司曾向投资者给出年底20亿美元的内部目标，属预测值，未证实）；API收入占比超70%<br>
             <b>增长驱动</b>：K2.5发布后20天收入超2025年全年，K3上线后日销售额猛增6倍<br>
             <b>用户</b>：全球付费用户数月增速170%</p>
         </div>
@@ -1092,7 +1093,7 @@
             </div>
             <div class="info-item">
                 <div class="info-label">最新市值</div>
-                <div class="info-value">超2000亿港元</div>
+                <div class="info-value">约1724亿港元（2026-11-16收盘）</div>
             </div>
             <div class="info-item">
                 <div class="info-label">员工规模</div>
@@ -1111,8 +1112,7 @@
             • <b>2025年</b>：开源32B/9B系列，采用MIT许可；全球下载量超6000万次<br>
             • <b>2025年12月</b>：发布GLM-4.7，登顶Hugging Face全球趋势榜<br>
             • <b>2026年1月8日</b>：港交所上市，"全球大模型第一股"，发行价116.2港元，募资43亿港元<br>
-            • <b>2026年6月</b>：市值突破1.1万亿港元<br>
-            • <b>2026年7月</b>：完成新股配售，实际募资净额约313.75亿港元</p>
+            • <b>2026年6月</b>：市值盘中最高约1.27–1.33万亿港元（6月22日峰值2980港元）<br> • <b>2026年7月</b>：完成新股配售，实际募资净额约313.75亿港元<br> • <b>2026年9月13日</b>：公告「配售+零息可转债」合计约393.31亿港元，年内三轮累计募资超750亿港元<br> • <b>2026年11月</b>：公告拟最高40亿港元回购H股；11月16日收353.60港元、市值约1724亿港元，较6月高点大幅回撤</p>
         </div>
 
         <div class="analysis-block">
@@ -1120,7 +1120,7 @@
             <p><b>IPO前融资</b>：8轮融资累计超83亿元<br>
             <b>投资方</b>：美团、蚂蚁、阿里、腾讯、小米、金山、君联资本、启明创投、红杉中国、高瓴等<br>
             <b>IPO</b>：2026年1月8日港交所上市，发行价116.2港元，募资43亿港元，IPO市值超511亿港元<br>
-            <b>配售</b>：2026年7月配售募资313.75亿港元，用于算力采购、商业化拓展、偿还债务</p>
+            <b>配售</b>：2026年7月配售净额313.75亿港元；<b>9月再融资约393.31亿港元</b>（配售价714港元＋30.16亿美元零息可转债），用于算力采购、商业化拓展、偿还债务</p>
         </div>
 
         <div class="analysis-block">
@@ -1128,7 +1128,7 @@
             <p><b>主营业务</b>：通用大模型研发与MaaS服务<br>
             <b>核心技术</b>：自研GLM（通用语言模型）架构，国内代表性预训练架构之一<br>
             <b>产品矩阵</b>：<br>
-            • GLM系列大模型（GLM-4.7为旗舰）<br>
+            • GLM系列大模型（2026年最新为 <b>GLM-5.3</b>，1M上下文；9月上线阿里云百炼、10月登陆 AWS Bedrock）<br>
             • ChatGLM开源对话模型<br>
             • CodeGeeX代码模型<br>
             • CogVLM多模态模型<br>
@@ -1139,7 +1139,7 @@
 
         <div class="analysis-block">
             <div class="analysis-title">四、财务数据</div>
-            <p><b>营收</b>：2022年5740万元→2023年1.25亿元→2024年3.12亿元→2025H1 1.91亿元<br>
+            <p><b>营收</b>：2022年5740万元→2023年1.25亿元→2024年3.12亿元→2025年7.24亿元→<b>2026H1 9.54亿元（同比+399.7%）</b><br> <b>2026中报补充</b>：期内亏损20.72亿元（收窄12.1%）、经调整净亏损19.64亿元、研发21.31亿元、毛利率26.4%；API收入8.25亿元（+2736%，占86.5%）<br>
             <b>毛利率</b>：长期保持50%以上，2024年本地化部署毛利率66%<br>
             <b>研发投入</b>：2022-2025H1累计约44亿元<br>
             <b>亏损</b>：高增长高投入，尚未盈利<br>
@@ -1215,7 +1215,7 @@
             </div>
             <div class="info-item">
                 <div class="info-label">最新市值</div>
-                <div class="info-value">约3800亿港元</div>
+                <div class="info-value">约440亿港元（2026-11-16收盘，已破发）</div>
             </div>
             <div class="info-item">
                 <div class="info-label">员工规模</div>
@@ -1231,9 +1231,8 @@
             • <b>2025年</b>：完成多轮Pre-B融资，累计融资近15亿美元<br>
             • <b>2025年6月</b>：发布MiniMax-M1系列，支持100万上下文<br>
             • <b>2026年1月9日</b>：港交所上市，全球AI公司最快IPO纪录（成立到上市仅4年），首日涨109%<br>
-            • <b>2026年2月</b>：发布旗舰模型M2.5，为Agent场景原生设计<br>
-            • <b>2026年3月</b>：市值突破3800亿港元，超越百度<br>
-            • <b>2026年5月</b>：启动A股IPO进程，冲刺A+H双上市</p>
+            • <b>2026年3月</b>：发布 M2.7；6月发布 M3（MSA架构、1M上下文）（原「2月 M2.5」未找到可靠来源，已修正）<br>
+            • <b>2026年3月</b>：市值峰值约3883亿港元（3月18日），超越百度<br> • <b>2026年5月</b>：启动A股IPO进程（5月29日上海证监局辅导备案，中信证券）<br> • <b>2026年8月</b>：发布2026中报；完成约160亿港元配售<br> • <b>2026年10月</b>：发布 M3.1 Flash 与 MiniMax Code；A股辅导第二期进展报告（截至11月未递表）<br> • <b>2026年11月16日</b>：收124.9港元、市值约440亿港元，创上市新低并跌破165港元发行价</p>
         </div>
 
         <div class="analysis-block">
@@ -1244,13 +1243,13 @@
             • <b>海螺AI</b>：国内AI助手，贡献主要功能收入<br>
             • <b>MiniMax Agent</b>：通用智能体<br>
             • <b>Hailuo视频</b>：AI视频生成<br>
-            • <b>MiniMax M2.5/M3</b>：旗舰大模型<br><br>
+            • <b>M3 / M3.1 Flash</b>：M3于2026年6月发布（MSA架构、1M上下文）；M3.1 Flash 于10月19日发布，推理速度近3倍、成本降70%<br><br>
             <b>技术特色</b>：全模态（语言+语音+视频+音乐），训练成本仅为OpenAI的1%</p>
         </div>
 
         <div class="analysis-block">
             <div class="analysis-title">三、财务数据</div>
-            <p><b>2025年营收</b>：约5340万美元（前三季度），同比增长159%<br>
+            <p><b>2025年营收</b>：约5343.7万美元（前三季度，同比+174.7%，招股书口径）<br> <b>2026中报</b>：收入1.17亿美元（+283.1%）、毛利率17.9%、经调整净亏损2.93亿美元（扩大111.2%）、研发2.97亿美元、B端收入7392.9万美元（+703.1%，占63.4%）、海外占60.8%、现金13.23亿美元<br>
             <b>收入结构</b>：C端AI产品收入占比超70%（与智谱B端为主形成差异）<br>
             <b>亏损</b>：经调整净亏损增幅仅2.7%，收入飞奔亏损几乎不动<br>
             <b>毛利率</b>：持续改善中<br>
@@ -1338,10 +1337,10 @@
             <div class="analysis-title">核心亮点</div>
             <p>• <b>差异化路线</b>：不做C端通用助手，专注B端终端嵌入（手机、汽车）<br>
             • <b>终端覆盖</b>：与OPPO、荣耀、中兴合作，预装手机超4200万台；与吉利合作端到端语音大模型座舱<br>
-            • <b>营收</b>：2025年近5亿元，2026年预计12亿元<br>
+            • <b>营收</b>：2025年近5亿元；2026年媒体预测10–12亿元（<b>均为预测，未获公司或招股书确认</b>）<br>
             • <b>融资</b>：2026年1月完成超50亿元B+轮（刷新年内单笔纪录），5月完成近25亿美元<br>
             • <b>投资方</b>：腾讯、上海国投、华勤、龙旗、豪威、中兴、港投公司等<br>
-            • <b>核心技术</b>：原生多模态，Step系列模型矩阵，端云协同推理</p>
+            • <b>核心技术</b>：原生多模态，Step系列模型矩阵，端云协同推理<br> • <b>2026年10月</b>：Step 5 Preview 开放权重（600B总参/27B激活、1M上下文、原生视觉），OpenRouter Token 用量周榜及日榜全球第二<br> • <b>IPO进展</b>：市场消息称已秘密递表、拟募资约5亿美元，公司未确认；<b>截至2026年11月未定价、未挂牌</b></p>
         </div>
     </div>
 
@@ -1384,11 +1383,11 @@
         <div class="analysis-block">
             <div class="analysis-title">核心亮点</div>
             <p>• <b>差异化路线</b>：专注端侧模型，"密度法则"（更少参数实现更强能力）<br>
-            • <b>核心产品</b>：MiniCPM系列端侧模型，全球下载量超3800万次<br>
+            • <b>核心产品</b>：MiniCPM系列端侧模型；下载量 2026年6月超3800万次→8月超4300万次；截至11月公司披露<b>开源项目累计下载超7000万次、GitHub星标超17万</b>（与「MiniCPM系列」单一口径不同）<br>
             • <b>商业化</b>：SuperMate智能座舱已搭载超30万台量产车（长安、吉利、广汽等）<br>
             • <b>手机合作</b>：与三星达成合作，MiniCPM落地旗舰手机<br>
             • <b>技术突破</b>：1B参数超越GPT-4o 200B表现；9B实现全双工全模态交互<br>
-            • <b>融资</b>：华为哈勃、龙芯创投、茅台基金、深创投、中国电信等入局</p>
+            • <b>融资</b>：华为哈勃、龙芯创投、茅台基金、深创投、中国电信等入局<br> • <b>2026年8月</b>：向北京证监局提交IPO上市辅导备案（中信证券，拟科创板），已完成股改<br> • <b>2026年11月</b>：MiniCPM 5-1B 通过中国信通院端侧AI模型安全测试（18项全合格）；展示 MiniCPM-V 4.7</p>
         </div>
     </div>
 
@@ -1746,7 +1745,7 @@
             • <b>2025年</b>：人形机器人出货量超5500台，全球第一；营收16.99亿元<br>
             • <b>2026年3月</b>：科创板IPO申请获受理<br>
             • <b>2026年6月1日</b>：IPO过会，73天创2026年最快IPO纪录<br>
-            • <b>2026年8月19日</b>：正式登陆科创板，"A股人形机器人第一股"</p>
+            • <b>2026年8月19日</b>：正式登陆科创板（688836），"A股人形机器人第一股"<br> • <b>2026年10月28日</b>：上市后首份三季报——前三季营收18.17亿元（+55.71%）、归母净利3.87亿元（+270.54%）、研发投入2.63亿元（+191.48%）；同日联合红杉中国设「杉宇·创计划」<br> • <b>2026年11月16日</b>：收703.99元、市值约2847亿元</p>
         </div>
 
         <div class="analysis-block">
@@ -2721,7 +2720,7 @@
         <table class="data-table">
             <thead><tr><th>企业</th><th>核心定位</th><th>说明</th></tr></thead>
             <tbody>
-                <tr><td>序轮科技</td><td>半导体</td><td>公开信息有限，待补充</td></tr>
+                <tr><td>序轮科技</td><td>半导体/集成电路</td><td>北京序轮科技有限公司，2022年成立于北京，创始人朱翰涛。主攻半导体先进封装用高分子胶膜（UV减粘膜、DAF芯片贴装胶膜等），已供货华虹、长鑫存储、京东方、通富微电等近百家客户。2026年1月完成超亿元A3/A4轮战略融资，投资方含北方华创旗下诺华资本。<span class="src-link">来源：36氪创投平台、企业官网</span></td></tr>
                 <tr><td>原芯半导体</td><td>半导体</td><td>公开信息有限，待补充</td></tr>
                 <tr><td>质子半导体</td><td>半导体</td><td>公开信息有限，待补充</td></tr>
                 <tr><td>中科摩尔</td><td>半导体</td><td>中科院背景，公开信息有限，待补充</td></tr>
@@ -2868,8 +2867,9 @@
         </div>
     </div>
 
+    <div class="warn-box">⚠️ <b>名单核验提示</b>：以下企业名称未能与 36氪官方 100 家名册逐字对应，且检索不到企业官网或权威媒体报道，暂按原名保留、不补写简介、不臆测赛道。卡片上的赛道标签为初版占位值，不代表真实归属。疑似对应的官方用名见 <a href="#changelog">第十二章对照表</a>。</div>
     <details class="todo-group">
-        <summary>信息待补充（1 家）</summary>
+        <summary>信息待核实（1 家）</summary>
         <div class="todo-list">
             <div class="company-card" data-track="商业航天/低空经济" data-company="格微XN">
         <div class="company-header">
@@ -3015,13 +3015,13 @@
             <div class="info-item"><div class="info-label">总部</div><div class="info-value">陕西西咸新区</div></div>
             <div class="info-item"><div class="info-label">背景</div><div class="info-value">陕汽集团混改孵化</div></div>
             <div class="info-item"><div class="info-label">董事长</div><div class="info-value">王钊</div></div>
-            <div class="info-item"><div class="info-label">2025年营收</div><div class="info-value">约27亿元（同比+260%）</div></div>
+            <div class="info-item"><div class="info-label">2025年营收</div><div class="info-value">约27亿元（同比+260%）；2026H1已追平</div></div>
             <div class="info-item"><div class="info-label">累计交付</div><div class="info-value">超万辆</div></div>
             <div class="info-item"><div class="info-label">知识产权</div><div class="info-value">390+项专利（发明70+项）</div></div>
         </div>
         <div class="analysis-block">
             <div class="analysis-title">核心亮点</div>
-            <p>• <b>氢能重卡市占率第一</b>：2023-2024年氢燃料重卡市场占有率全国第一（超30%）<br>• <b>国内唯一</b>：具备氢燃料电池发动机全栈自研能力的商用车企<br>• <b>技术</b>：燃料电池系统功率密度810W/kg，纯氢续航突破1000公里<br>• <b>产品</b>：覆盖牵引、自卸、环卫等6大车型，200+款可售车型<br>• <b>智能驾驶</b>：2023年实现L4级封闭路段交付；2025年发布"曜灵Ⅱ"零碳无人概念重卡<br>• <b>出海</b>：氢燃料重卡出口澳大利亚、马来西亚、阿曼等；新加坡300台战略合作协议<br>• <b>融资</b>：A轮3.8亿元+B轮数亿元，股东涵盖国家级基金、产业资本、地方国资<br>• <b>荣誉</b>：陕西省"专精特新"、胡润全球瞪羚企业、法国设计奖金奖<br>• <b>2026年目标</b>：整车销售1.5万辆，冲刺IPO</p>
+            <p>• <b>氢能重卡市占率第一</b>：2023-2024年氢燃料重卡市场占有率全国第一（超30%）<br>• <b>国内唯一</b>：具备氢燃料电池发动机全栈自研能力的商用车企<br>• <b>技术</b>：燃料电池系统功率密度810W/kg，纯氢续航突破1000公里<br>• <b>产品</b>：覆盖牵引、自卸、环卫等6大车型，200+款可售车型<br>• <b>智能驾驶</b>：2023年实现L4级封闭路段交付；2025年发布"曜灵Ⅱ"零碳无人概念重卡<br>• <b>出海</b>：氢燃料重卡出口澳大利亚、马来西亚、阿曼等；新加坡300台战略合作协议<br>• <b>融资</b>：A轮3.8亿元+B轮数亿元，股东涵盖国家级基金、产业资本、地方国资<br>• <b>荣誉</b>：陕西省"专精特新"、胡润全球瞪羚企业、法国设计奖金奖<br>• <b>2026年目标</b>：整车销售1.5万辆，冲刺IPO<br> • <b>2026年10月26日</b>：世界智能网联汽车大会展出 Re+系448kWh充电牵引车、Ta系600kWh自卸车、E285M11氢燃料电池发动机<br> • <b>口径提醒</b>：「27亿元」为2025年营收；36氪官方未公布百家营收排名</p>
         </div>
         <div class="swot-grid">
             <div class="swot-item swot-s"><div class="swot-label">💪 优势</div><ul><li>陕汽集团混改背景，产业资源丰富</li><li>氢能重卡市占率第一</li><li>氢+电双技术路线</li><li>全栈自研氢燃料电池发动机</li></ul></div>
@@ -3467,8 +3467,9 @@
     </div>
 </div>
 
+    <div class="warn-box">⚠️ <b>名单核验提示</b>：以下 22 家名称大多未能与 36氪官方 100 家名册逐字对应（部分疑为一字之差的误写），且检索不到可靠的公司主体信息。初版将这 22 张卡片统一标注为「新能源汽车/智能网联」，导致该赛道统计虚高至31家；本次更新保留原标签以免引入新的不确定数据，但已在此如实披露。逐家核查结果与疑似对应名见 <a href="#changelog">第十二章对照表</a>，<b>待取得官方名册原图后逐字校正并重新归类</b>。</div>
     <details class="todo-group">
-        <summary>信息待补充（22 家）</summary>
+        <summary>信息待核实（22 家）</summary>
         <div class="todo-list">
             <div class="company-card" data-track="新能源汽车/智能网联" data-company="HYDRA CELL/水射">
     <div class="company-header" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
@@ -3519,15 +3520,15 @@
     <div class="company-header" style="background: linear-gradient(135deg, #fdcbf1 0%, #e6dee9 100%);">
         <div>
             <span class="company-name">原芯半导体</span>
-            <span class="company-subtitle">暂无信息</span>
+            <span class="company-subtitle">经核验疑为「原粒半导体」误写，名称待裁</span>
         </div>
-        <div class="tags">
-            <span class="tag">半导体</span>
-        </div>
+        <div class="tags"><span class="tag">半导体/集成电路</span></div>
     </div>
     <div class="dimension-section">
-        <h3>📋 企业概况</h3>
-        <p>该企业入选36氪2026最具成长价值的百家企业榜单，归属于半导体赛道。由于公开信息有限，详细业务数据、融资历程、技术能力等信息暂未充分披露。后续将持续跟踪补充。</p>
+        <h3>📋 企业概况（2026-11-17 核验补齐）</h3>
+        <p>「原芯半导体」在 36氪官方名册中无此用名，无企业官网、无权威媒体与工商登记与之对应；但下述融资轮次、领投方、创始人、业务四项与官方「集成电路/半导体」赛道的<b>原粒半导体</b>逐项吻合，判定为高置信度名称误写（未经 100% 确证，故原名保留）。</p>
+        <p>原粒（北京）半导体技术有限公司成立于2023年4月，总部北京，创始人兼CEO方绍峡曾任 AMD、Xilinx 的 AI 处理器研发总监。公司以自研 Chiplet 积木式架构切入端侧 AI 大模型算力，主打面向 Agent Computer 的端侧生产力 AI 芯片，首款 CCS-1 系列已一次流片点亮。2023年获英诺天使领投的数千万元种子轮；2026年4月完成超5亿元 Pre-A 轮（IDG 独家领投），7月再获超7亿元 A 轮，3个月累计超12亿元。2026年6月入选 36氪「2026最具价值成长企业100」集成电路/半导体赛道。</p>
+        <p class="src-link">来源：36氪创投平台、界面新闻（2023-06）、中国财富网（2026-04-24）、湖北日报（2026-07）、北京首都科技发展集团入选公告、企业工商信息。</p>
     </div>
 </div>
             <div class="company-card" data-track="新能源汽车/智能网联" data-company="德芯源">
@@ -3937,7 +3938,7 @@
                 <tr><td>有计健康</td><td>健康科技</td><td>公开信息有限，待补充</td></tr>
                 <tr><td>德芯源</td><td>生物科技</td><td>公开信息有限，待补充</td></tr>
                 <tr><td>普科方舟</td><td>生物科技</td><td>公开信息有限，待补充</td></tr>
-                <tr><td>深微智/DIP</td><td>AI医疗</td><td>公开信息有限，待补充</td></tr>
+                <tr><td>深微智/DIP<br>（官方名册作「深度智耀/DIP」）</td><td>生物医药/医疗器械</td><td>深度智耀（DIP）2017年成立于北京，创始人李星曾任职辉瑞、强生。以AI多智能体平台覆盖药物临床研发全流程，并延伸至新能源、半导体材料。2025年12月至2026年3月完成D轮系列近2亿美元融资（鼎晖百孚、红杉中国等）。<span class="src-link">来源：企业官网、界面新闻</span></td></tr>
                 <tr><td>新合生物</td><td>生物科技</td><td>公开信息有限，待补充</td></tr>
                 <tr><td>易智U医疗</td><td>AI医疗</td><td>公开信息有限，待补充</td></tr>
                 <tr><td>跃灵生物</td><td>生物科技</td><td>公开信息有限，待补充</td></tr>
@@ -4853,14 +4854,116 @@
     </div>
 </div>
 
+
+<!-- Section 12: Changelog -->
+<div class="section" id="changelog">
+    <h2 class="section-title">十二、数据核验与更新日志（2026年11月17日）</h2>
+
+    <div class="info-box">
+        <b>本次更新范围</b>：以 <a href="https://www.36kr.com/p/3857980507919622" target="_blank" rel="noopener noreferrer">36氪官方榜单发布页</a>、企业官网／招股书／交易所公告、新华社系与经济日报系媒体、证券时报、财联社、科技日报等公开信源，对报告核心数据进行复核，重点补齐 2026年9—11月 的新进展。<br>
+        <b>处理原则</b>：只写入可溯源信息；「计划中」「市场传闻」「公司未置评」一律显式标注；查不到可靠来源的，保留原状或明确标注待核，不编造、不张冠李戴。<br>
+        <b>未改动</b>：各企业 SWOT / PEST 判断、定性分析、赛道深度分析正文；100 张企业卡片结构与筛选逻辑。
+    </div>
+
+    <div class="analysis-block">
+        <div class="analysis-title">一、报告口径与结构修正</div>
+        <table class="data-table changelog-table">
+            <thead><tr><th>项</th><th>初版</th><th>本次更新</th><th>依据</th></tr></thead>
+            <tbody>
+                <tr><td>榜单名称</td><td>「2026年最具成长价值的百家企业」</td><td>「2026最具价值成长企业100」（The Most Valuable Growth Enterprises）</td><td>36氪官方发布页，2026-06-18</td></tr>
+                <tr><td>评选启动时间</td><td>未写明</td><td>2026年4月启动，历时2个多月；6月17日 WAVES 2026 大会发布、6月18日官网发文</td><td>36氪官方发布页</td></tr>
+                <tr><td>信息更新时间</td><td>脚本动态生成「访问日期 − 2天」的假日期</td><td>固定为「数据核查截止 2026年11月17日」，同时标注初版上线日期</td><td>本次修订</td></tr>
+                <tr><td>地域分布（顶部卡片）</td><td>北京19／上海11／深圳18／杭州7／广州2／其他12／未披露31</td><td>改用官方口径：北京26／深圳21／上海14／其他39；并注明两套口径不可直接比较</td><td>36氪官方原文；「其他39家」为推算</td></tr>
+                <tr><td>地域分布（正文）</td><td>仅列前三城市与「其他39家」</td><td>补充官方披露：平均年龄5.5岁、超70%企业增速&gt;100%、增速&gt;300%约占1/3、B轮及以前&gt;60%、超80%融资轮有产业资本</td><td>36氪官方发布页</td></tr>
+                <tr><td>赛道分布</td><td>新能源汽车31家等9类，合计100</td><td>数值保留但补充口径说明：其中23家为待核实占位卡片，实际核实归类77家</td><td>本次核验，见下文对照表</td></tr>
+                <tr><td>「营收最高企业」</td><td>质子汽车（约27亿元）</td><td>改为「质子汽车（2025年约27亿元）」，并注明官方未公布营收排名、2026H1已追平2025全年</td><td><a href="https://sn.people.com.cn/n2/2026/0304/c186331-41514594.html" target="_blank" rel="noopener noreferrer">人民网陕西 2026-03-04</a>、<a href="https://www.ishaanxi.com/c/2026/0812/3765897.shtml" target="_blank" rel="noopener noreferrer">陕西网 2026-08-12</a></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="analysis-block">
+        <div class="analysis-title">二、关键数据修订（头部企业）</div>
+        <table class="data-table changelog-table">
+            <thead><tr><th>企业 / 字段</th><th>初版</th><th>本次更新</th><th>来源与日期</th></tr></thead>
+            <tbody>
+                <tr><td>DeepSeek 估值</td><td>约5000亿元</td><td>5000亿元为二轮<b>投前</b>估值；媒体口径投后约6155亿元，公司未官宣</td><td><a href="http://i4.ce.cn/ce/xwzx/gnsz/gdxw/202610/t20261026_3270619.shtml" target="_blank" rel="noopener noreferrer">中国经济网 2026-10-26</a>；36氪 2026-11-13</td></tr>
+                <tr><td>DeepSeek 二轮融资</td><td>2026年10月「完成」约1000亿元</td><td>改为「据媒体报道完成，约1000–1055亿元，<b>未官宣</b>」；补9月 V4.1 Flash、10月 DeepInfer 开源、11月科创板筹备（未递表）与 C 端限额</td><td>经济日报／21世纪经济报道 2026-10；36氪 2026-11-13</td></tr>
+                <tr><td>DeepSeek 月活 / 员工</td><td>1.27–1.30亿 / 约300人</td><td>月活改为「媒体转述 QuestMobile 约1.3亿，未找到原始报告」；员工改为「未公开，媒体估算150–300人」</td><td>本次核验</td></tr>
+                <tr><td>Kimi 估值 / 融资</td><td>约500亿美元 / 超376亿元</td><td>注明为10月媒体口径未官宣；376亿元为截至2026年5月口径，7月再融超35亿美元</td><td>澎湃 2026-09-02；港商报 2026-10-07</td></tr>
+                <tr><td>Kimi 上市</td><td>2026年9月「已递交A1」、最快6个月登陆港股</td><td>改为<b>传闻／未获证实</b>：公司「不予置评」，保密递表无公开招股书；WSJ 11月口径为最早2027年初赴港</td><td>澎湃 2026-09-02；WSJ 转述 2026-11-13</td></tr>
+                <tr><td>Kimi ARR / 模型</td><td>6月3亿美元 / K3 最新</td><td>8月ARR约10亿美元（年底20亿为内部预测，未证实）；10月24日发布 <b>K3.1 Pro</b>（3万亿级参数、1M上下文）</td><td><a href="https://www.stdaily.com/web/gdxw/2026-10/24/content_602239.html" target="_blank" rel="noopener noreferrer">科技日报 2026-10-24</a>；中国经济网 2026-09-04</td></tr>
+                <tr><td>智谱 市值</td><td>超2000亿港元</td><td><b>约1724亿港元</b>（2026-11-16 收353.60港元）；6月峰值约1.27–1.33万亿港元，回撤显著</td><td>同花顺／新浪财经 2026-11-16</td></tr>
+                <tr><td>智谱 融资 / 财报</td><td>仅7月配售313.75亿港元；营收列至2025H1</td><td>补9月13日「配售＋零息可转债」约<b>393.31亿港元</b>、年内累计超750亿；补2026中报营收9.54亿元（+399.7%）、亏损20.72亿元、API收入8.25亿元（+2736%）</td><td><a href="https://www.jjckb.cn/20260914/2d11cd3d04bf441eb8a0b49985f470f5/c.html" target="_blank" rel="noopener noreferrer">经济参考报 2026-09-14</a>；36氪 2026-11-11</td></tr>
+                <tr><td>MiniMax 市值</td><td>约3800亿港元</td><td><b>约440亿港元</b>（2026-11-16 收124.9港元，跌破165港元发行价、创上市新低）；3800亿为3月峰值</td><td><a href="https://epaper.cs.com.cn/zgzqb/html/2026-11/17/nw.D110000zgzqb_20261117_3-A06.htm" target="_blank" rel="noopener noreferrer">中国证券报 2026-11-17</a></td></tr>
+                <tr><td>MiniMax 财报 / 模型</td><td>2025前三季5340万美元；M2.5 为旗舰</td><td>补2026中报收入1.17亿美元（+283.1%）、经调整净亏损2.93亿美元（扩大111.2%）；模型序列更正为 M2.7(3月)→M3(6月)→<b>M3.1 Flash</b>(10月19日)＋MiniMax Code(10月22日)，「M2.5」未找到可靠来源</td><td><a href="https://ir.minimax.io/news-events/new-releases" target="_blank" rel="noopener noreferrer">MiniMax IR 官网</a>；证券时报 2026-10-19</td></tr>
+                <tr><td>阶跃星辰 营收 / IPO</td><td>2026年预计12亿元</td><td>改为「媒体预测10–12亿元，未获公司确认」；补10月 Step 5 Preview 开放权重、IPO 仍为传闻且截至11月未挂牌</td><td>钜亨网 2026-05；<a href="https://www.stepfun.com/step-5-preview" target="_blank" rel="noopener noreferrer">阶跃星辰官网</a> 2026-10-15</td></tr>
+                <tr><td>面壁智能 下载量</td><td>MiniCPM 超3800万次</td><td>6月3800万→8月4300万→11月公司披露<b>开源项目累计超7000万次</b>（口径不同，已注明）；补8月科创板IPO辅导备案、11月信通院安全测试</td><td>新华财经 2026-08-12；每日经济新闻 2026-11-11</td></tr>
+                <tr><td>宇树科技</td><td>列至2026年8月19日上市</td><td>补10月28日三季报：前三季营收18.17亿元（+55.71%）、归母净利3.87亿元（+270.54%）；11月16日市值约2847亿元</td><td>中国日报网／机器人前瞻 2026-10-28</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="analysis-block">
+        <div class="analysis-title">三、2026年9—11月新进展（已核实，尚未逐卡回填）</div>
+        <table class="data-table changelog-table">
+            <thead><tr><th>日期</th><th>企业</th><th>事件</th><th>状态</th></tr></thead>
+            <tbody>
+                <tr><td>09-10</td><td>九识智能</td><td>广州发布会升级「城市级物理AI」，推出「九识租车」；车队超3万台、L4累计运营里程超2.5亿公里</td><td>已完成</td></tr>
+                <tr><td>09-24</td><td>智元机器人</td><td>第20000台通用具身机器人（远征A3 Ultra）下线交付长隆集团；10月传启动10–15亿元新融资、估值约500亿元，港股IPO暂缓</td><td>交付已完成；融资未证实</td></tr>
+                <tr><td>10-20</td><td>小鹏汇天</td><td>首架投入阿联酋低空监管示范区的 X3-F 在广州下线交付；<b>PC申请已受理、TC尚未取得</b>（初版「已获适航证」说法不成立）</td><td>已完成</td></tr>
+                <tr><td>10月</td><td>时空道宇</td><td>吉利银河战舰700上市（全球首款搭载低轨卫星物联通信量产乘用车）；10月13日共建香港低轨卫星战略出海中心</td><td>已完成</td></tr>
+                <tr><td>10-28</td><td>本源量子 / 量旋科技 / 玻色量子</td><td>本源6月近30亿元Pre-IPO轮（投前210亿元）；量旋6月30日10亿元D轮、半年累计20亿元；玻色3月10亿元B轮、7月提交A股辅导备案</td><td>已完成</td></tr>
+                <tr><td>10-26 / 11-05</td><td>质子汽车</td><td>世界智能网联汽车大会发布 Re+系448kWh充电牵引车等三款新品；董事长专访回应新能源重卡价格战</td><td>已完成</td></tr>
+                <tr><td>11-16</td><td>智谱 / MiniMax</td><td>港股大模型板块大幅回调：智谱 −13.42%、MiniMax −18.04%，两家市值均较年内高点大幅缩水</td><td>已完成</td></tr>
+            </tbody>
+        </table>
+        <p class="stats-note">来源：九识官网与南方+（2026-09-10/11）、智元官网与财联社（2026-09/10）、<a href="https://www.news.cn/auto/20261022/d9d43baca94847ceac2eeff9b83de03d/c.html" target="_blank" rel="noopener noreferrer">新华网（2026-10-22）</a>、央视网（2026-10-21）、<a href="https://www.news.cn/digital/20260403/45653cf4010a4381a08b371aab5e6432/c.html" target="_blank" rel="noopener noreferrer">新华网（2026-04-03）</a>、科技日报（2026-06-30）、质子汽车稿（2026-10-26）、中国证券报（2026-11-17）。</p>
+    </div>
+
+    <div class="analysis-block">
+        <div class="analysis-title">四、名单偏差与待核实清单（重要）</div>
+        <div class="warn-box">
+            两组独立检索将报告用名与 36氪官方 100 家名册逐字比对后发现：<b>报告中有若干名称未出现在官方名册</b>，且检索不到对应的企业官网或权威媒体报道。这不是数据过期，而是名称／主体层面的偏差。按「不编造」原则，本次<b>不擅自改名、不补写简介、不臆测赛道</b>，仅在此如实列出，待取得官方名册原图后逐字校正。
+        </div>
+        <table class="data-table changelog-table">
+            <thead><tr><th>报告用名</th><th>核查结果</th><th>疑似对应的官方用名（未证实推测）</th><th>官方赛道</th></tr></thead>
+            <tbody>
+                <tr><td>原芯半导体</td><td>官方名册无此名；但融资轮次、领投方、创始人、业务四项与「原粒半导体」逐项吻合，<b>证据链最强</b></td><td>原粒半导体</td><td>集成电路/半导体</td></tr>
+                <tr><td>深微智/DIP</td><td>官方名册作「深度智耀/DIP」；「深微智」无独立主体。<b>本次已在正文表格补写可核实简介</b></td><td>深度智耀/DIP</td><td>生物医药/医疗器械</td></tr>
+                <tr><td>序轮科技</td><td>确在官方名册，初版误标「公开信息有限」。<b>本次已补写简介</b>（2022年北京成立，半导体封装胶膜，2026年1月超亿元A3/A4轮）</td><td>序轮科技（无误）</td><td>集成电路/半导体</td></tr>
+                <tr><td>擎天柱</td><td>「擎天柱」是产品／机型名，非公司名；官方名册有「擎天租」</td><td>擎天租</td><td>先进制造/机器人</td></tr>
+                <tr><td>星图</td><td>无入选记录；可能指星海图、星际光年或上市公司中科星图，无法确定</td><td>星海图 / 星际光年（待定）</td><td>待定</td></tr>
+                <tr><td>有计健康 / 诺和科技 / 跃灵生物</td><td>均不在可读名册；无可靠主体信息</td><td>荷叶健康 / 恩和科技 / 赜灵生物</td><td>生物医药/医疗器械</td></tr>
+                <tr><td>木木科技 / 深外智能 / 英码智能PeBot</td><td>均不在可读名册；命中的是同名小微主体或不同公司</td><td>木牛科技 / 深朴智能 / 灵初智能PsiBot</td><td>低空经济 / 机器人 / 机器人</td></tr>
+                <tr><td>诺瓦智能 / 质子半导体 / 中科摩尔</td><td>均不在可读名册；「质子半导体」疑为「质子汽车」与「原子半导体」两条混合</td><td>待定 / 质子汽车或原子半导体 / 中科卓尔</td><td>待定</td></tr>
+                <tr><td>格微XN、HYDRA CELL/水射、创翼科技、德芯源、易智U医疗、普尔星智能、普科方舟、智内医疗、蓝友机器人、深时MACHINE、格辰机器人</td><td>逐一检索无可靠公开信息；命中的均为明确不同的境内外主体</td><td>无可稳妥对应者</td><td>待定</td></tr>
+                <tr><td>宇树科技、图灵量子、高景太阳能</td><td>三者均<b>未出现在官方 100 家名册</b>（宇树 2026-08 已上市，已非成长企业）</td><td>建议改称「赛道对标企业」或移出入选名单</td><td>—</td></tr>
+            </tbody>
+        </table>
+        <p class="stats-note">名册基准：<a href="https://www.36kr.com/p/3857980507919622" target="_blank" rel="noopener noreferrer">36氪官网发布页（2026-06-18）</a>、36氪微信公众号含名册图原文、WAVES 2026 大会发布材料（2026-06-25）。官方名册以图片发布，部分赛道为 OCR 转录，上述「不在名册」结论基于可读部分约72家＋逐名检索无入选自述稿，非100家逐字比对，<b>保留复核余地</b>。</p>
+    </div>
+
+    <div class="analysis-block">
+        <div class="analysis-title">五、待裁决项</div>
+        <div class="warn-box">
+            <b>请主人裁定：</b><br>
+            1. 23 张「信息待核实」卡片的赛道标签（初版统一占位为「新能源汽车/智能网联」）是否改为独立的「待核实」分类？改后赛道分布将变为：已核实77家＋待核实23家。<b>本次未改</b>，以免用不确定数据替换错误数据。<br>
+            2. 上表中疑似误写的名称是否按官方名册统一更正？其中「原芯半导体→原粒半导体」证据链最强，建议优先更正。<br>
+            3. 宇树科技、图灵量子、高景太阳能三家是否保留在「入选企业」名单内，还是改列为赛道对标企业？<br>
+            4. 顶部「合计融资约3,388亿元」「独角兽22家」等汇总值基于初版卡片字段统计，本次更新了部分字段后数值已不严格对应，是否按新口径全量重算？
+        </div>
+        <p class="stats-note">另：DeepSeek 二轮融资「已完成」、Kimi 与阶跃星辰「已递表」、智谱 11月「ARR指引上调」等均为媒体报道或市场传闻，公司未正式确认，报告中已逐处标注。市值类数据为 2026-11-16 收盘快照，会随行情变动。</p>
+    </div>
+</div>
+
 <!-- Footer -->
 <div class="section" style="text-align: center; color: var(--text-secondary);">
     <p>报告完成 | 数据来源：企业官网、招股书、36氪、财新、The Information、QuestMobile等权威媒体</p>
     <p>声明：本报告仅供研究参考，不构成投资建议。部分数据基于公开信息整理，可能存在偏差。</p>
-    <p>生成时间：<span id="report-date-footer"></span></p>
+    <p>本次数据核验：<span id="report-date-footer"></span> ｜ 初版发布：2026年11月5日</p>
     <p style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);">
         <strong style="color: var(--accent);">原始榜单来源：</strong><br>
-        36氪「2026年最具成长价值的百家企业」榜单于2026年6月18日正式发布<br>
+        36氪「2026最具价值成长企业100」榜单于2026年4月启动评选、2026年6月17日在 WAVES 2026 大会发布，6月18日官网正式发文<br>
         <a href="https://eu.36kr.com/zh/p/3857980507919622" target="_blank" rel="noopener noreferrer" style="color: var(--info); text-decoration: none;">查看36氪原始榜单文章 →</a>
     </p>
 </div>
@@ -4868,14 +4971,9 @@
 </div>
 
 <script>
-// 动态显示报告生成时间（访问日期 - 2天）
+// 报告数据核查截止日期（固定值，不随访问时间变动）
 (function() {
-    const now = new Date();
-    const reportDate = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000);
-    const year = reportDate.getFullYear();
-    const month = reportDate.getMonth() + 1;
-    const day = reportDate.getDate();
-    const dateStr = year + '年' + month + '月' + day + '日';
+    const dateStr = '2026年11月17日';
     document.getElementById('report-date').textContent = dateStr;
     const footerDate = document.getElementById('report-date-footer');
     if (footerDate) footerDate.textContent = dateStr;
